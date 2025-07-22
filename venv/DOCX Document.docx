@@ -1,0 +1,56 @@
+experiment-1:
+
+No.of layers:3
+
+No.of neurons in layer1:128
+Activation:relu
+
+No.of neurons in layer2(output):10
+Activation:softmax
+
+optimizer:adam
+loss:categorical_crossentropy
+metrics:accuracy
+
+epochs:10
+batch_size:64
+
+Experiment 2:
+Hyper parameter
+
+optimizer:sgd
+output:
+accuracy: 0.0987
+loss:2.3026
+
+Experiment 3:
+Hyper parameter
+one more layer with 256 neurons is added
+optimizer:sgd
+output:
+accuracy: 0.1036
+loss:2.3924
+
+
+Experiment 4:
+Hyper parameter
+optimizer:sgd chaged to adam
+output:
+accuracy: 0.1876
+loss:2.15
+
+Experiment 5:
+Hyper parameter
+optimizer:adam
+epochs increased from 10 to 30
+output:
+accuracy: 0.0987
+loss:2.3026
+
+
+
+
+
+
+
+
