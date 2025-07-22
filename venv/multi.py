@@ -49,6 +49,4 @@ for i in sample_images:
   plt.subplot(1,5,i+1)
   plt.imshow(sample_images[i])
   plt.title(f"actual label:{sample_labels[i]}\npredicted label:{result[i]}")
-
-
 plt.show()
